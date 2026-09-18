@@ -1,0 +1,7 @@
+{
+  "name": "azure-devops",
+  "version": "2.6.0",
+  "description": "Azure DevOps 版控檢索、AST 語意符號抽取、Work Item 追蹤與防禦性 PR/分支協作外掛",
+  "author": "Soetek",
+  "defaultEnabled": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "sap-b1-sql",
+  "version": "2.6.0",
+  "description": "SAP Business One SQL Server 唯讀查詢、單據追蹤、UDF 業務字典與 SP 依賴分析外掛",
+  "author": "Soetek",
+  "defaultEnabled": true
+}

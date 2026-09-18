@@ -1,0 +1,12 @@
+{
+  "plugins": {
+    "sap-b1-sql": {
+      "enabled": true,
+      "description": "SAP Business One SQL Server 唯讀查詢與分析外掛"
+    },
+    "azure-devops": {
+      "enabled": true,
+      "description": "Azure DevOps 版控、AST 符號抽取與需求追蹤外掛"
+    }
+  }
+}

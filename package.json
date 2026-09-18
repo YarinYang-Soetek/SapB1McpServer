@@ -1,0 +1,21 @@
+{
+  "name": "sap-b1-mcp-server",
+  "version": "2.6.0",
+  "description": "Enterprise Model Context Protocol (MCP) Server for SAP Business One SQL Server",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "sap-b1-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "serve": "node src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "express": "^5.2.1",
+    "mssql": "^11.0.1"
+  },
+  "author": "Soetek",
+  "license": "Commercial / Proprietary"
+}

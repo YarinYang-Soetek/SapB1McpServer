@@ -1,0 +1,10 @@
+{
+  "port": 5005,
+  "apiKey": "b1-mcp-secret-key-2026",
+  "enableSse": true,
+  "allowedOrigins": ["*"],
+  "allowedIps": [],
+  "rateLimitWindowMs": 60000,
+  "rateLimitMax": 120,
+  "toolTimeoutMs": 30000
+}
