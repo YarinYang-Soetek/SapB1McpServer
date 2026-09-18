@@ -248,7 +248,7 @@ Mac 開發機直接連線至遠端 Windows 開發機（例如 `192.168.170.233:5
 {
   "mcpServers": {
     "sap-b1-remote-gateway": {
-      "url": "http://192.168.170.233:5005/sse",
+      "url": "http://<Server IP 路徑>:5005/sse",
       "headers": {
         "x-mcp-api-key": "b1-mcp-secret-key-2026"
       }
@@ -367,4 +367,4 @@ Mac 開發機直接連線至遠端 Windows 開發機（例如 `192.168.170.233:5
 ## 架構文件參考
 
 詳細 TOGAF 分層架構模型、安全防禦防腐層實作規範，請參閱：
-[docs/ARCHITECTURE.md](ARCHITECTURE.md)
+[ARCHITECTURE.md](ARCHITECTURE.md)
