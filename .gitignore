@@ -1,5 +1,13 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+# 排除 Node.js 依賴庫
+node_modules/
 
-/.vs
+# 排除 Visual Studio / VS Code 暫存與快取
+.vs/
+.vscode/
+
+# 排除編譯產物與日誌
+dist/
+*.log
+
+# 排除連線機密
+config/environments.json
